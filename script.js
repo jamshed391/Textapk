@@ -5,7 +5,7 @@ downloadButton.addEventListener('click', () => {
   // Create a temporary anchor element to initiate the download
   const downloadLink = document.createElement('a');
   downloadLink.href = apkFileUrl;
-  downloadLink.download = 'your-apk-file.apk'; // Set the desired filename for the downloaded APK file
+  downloadLink.download = 'https://pacific.us.hostns.io:2083/cpsess3933711991/frontend/jupiter/filemanager/index.html'; // Set the desired filename for the downloaded APK file
 
   // Append the anchor element to the body and trigger the click event
   document.body.appendChild(downloadLink);
