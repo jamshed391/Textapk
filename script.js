@@ -1,5 +1,5 @@
 const downloadButton = document.getElementById('downloadButton');
-const apkFileUrl = 'your-apk-file-url.apk'; // Replace with the actual URL of your APK file.
+const apkFileUrl = 'https://pacific.us.hostns.io:2083/cpsess3933711991/frontend/jupiter/filemanager/index.html'; // Replace with the actual URL of your APK file.
 
 downloadButton.addEventListener('click', () => {
   // Create a temporary anchor element to initiate the download
