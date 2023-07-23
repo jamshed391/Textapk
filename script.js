@@ -1,6 +1,5 @@
 const downloadButton = document.getElementById('downloadButton');
 const apkFileUrl = 'https://ydray.com/get/t/16900591016571fuys55930ed3679ccb'; // Replace with the actual URL of your APK file.
-
 downloadButton.addEventListener('click', () => {
   // Create a temporary anchor element to initiate the download
   const downloadLink = document.createElement('a');
